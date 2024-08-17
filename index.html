@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Product list with cart</title>
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="products-container">
+      <div class="title">
+        <h1>Desserts</h1>
+      </div>
+    </div>
+    <div class="your-cart empty">
+      <h2>Your Cart (<span class="quantity">0</span>)</h2>
+      <img src="./assets/images/illustration-empty-cart.svg" alt="">
+      <p class="note">Your added items will appear here</p>
+      <div class="cart-control">
+      </div>
+      <div class="total-order">
+        <span>Order Total</span>
+        <span class="total-price">$0.00</span>
+      </div>
+      <div class="delivery">
+        <span>This is a <b>carbon-neutral</b> delivery</span>
+      </div>
+      <button class="confirm-order-btn">
+        Confirm Order
+      </button>
+    </div>
+  </div>
+  <div class="main-order-confirmed-container unconfirmed">
+    <div class="order-confirmed-container">
+      <img src="./assets/images/icon-order-confirmed.svg" alt="">
+      <h1>Order Confirmed</h1>
+      <p>We hope you enjoy your food!</p>
+      <div>
+        <div class="confirmed-products">
+          <!-- <div class="confirmed-product">
+            <img src="./assets/images/image-tiramisu-thumbnail.jpg" alt="">
+            <div class="confirmed-product-details">
+              <b>Classic Tiramisu</b>
+              <div class="confirmed-product-quantity-and-price"><span>4x</span><span>@ $7.00</span></div>
+            </div>
+            <span class="confirmed-product-total-price">$5.50</span>
+          </div>
+          <div class="confirmed-product">
+            <img src="./assets/images/image-tiramisu-thumbnail.jpg" alt="">
+            <div class="confirmed-product-details">
+              <b>Classic Tiramisu</b>
+              <div class="confirmed-product-quantity-and-price"><span>4x</span><span>@ $7.00</span></div>
+            </div>
+            <span class="confirmed-product-total-price">$5.50</span>
+          </div>
+          <div class="confirmed-product">
+            <img src="./assets/images/image-tiramisu-thumbnail.jpg" alt="">
+            <div class="confirmed-product-details">
+              <b>Classic Tiramisu</b>
+              <div class="confirmed-product-quantity-and-price"><span>4x</span><span>@ $7.00</span></div>
+            </div>
+            <span class="confirmed-product-total-price">$5.50</span>
+          </div> -->
+        </div>
+        <div class="total-confirmed-order">
+          <span>Order Total</span>
+          <b class="total-confirmed-price">$0.00</b>
+        </div>
+      </div>
+      <button class="new-order-btn">Start New Order</button>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
