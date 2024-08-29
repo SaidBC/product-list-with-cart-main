@@ -334,4 +334,5 @@ confirmOrderBtn.onclick = (ev) => {
 
 newOrderBtn.onclick = () => {
     mainOrderConfirmedContainer.classList.add('unconfirmed');
+    confirmedProducts.innerHTML = '';
 }
